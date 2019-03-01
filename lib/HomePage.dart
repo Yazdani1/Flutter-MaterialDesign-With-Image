@@ -128,12 +128,12 @@ class _HomeState extends State<Home> {
                      margin: EdgeInsets.all(10.0),
                      padding: EdgeInsets.all(10.0),
                      decoration: new BoxDecoration(
-                         color:Colors.red,
+                         color:Colors.purple,
                          borderRadius: new BorderRadius.all(
                              Radius.circular(90.0)
                          )
                      ),
-                     child: new Icon(Icons.search,color: Colors.white,),
+                     child: new Icon(Icons.album,color: Colors.white,),
 
                    ),//container end
 
@@ -170,7 +170,7 @@ class _HomeState extends State<Home> {
                              Radius.circular(90.0)
                          )
                      ),
-                     child: new Icon(Icons.search,color: Colors.white,),
+                     child: new Icon(Icons.title,color: Colors.white,),
 
                    ),//container end
 
@@ -247,6 +247,18 @@ class _HomeState extends State<Home> {
                    borderRadius: new BorderRadius.circular(18.0),
                    child: new Image(
                        image: AssetImage("assets/a.jpg"),
+                     height: 200.0,
+                     width: 200.0,
+                     fit: BoxFit.cover,
+                   ),
+                 ),
+               ),
+               new Container(
+                 margin: EdgeInsets.all(10.0),
+                 child: new ClipRRect(
+                   borderRadius: new BorderRadius.circular(18.0),
+                   child: new Image(
+                       image: new AssetImage("assets/a.jpg"),
                      height: 200.0,
                      width: 200.0,
                      fit: BoxFit.cover,
