@@ -91,7 +91,7 @@ class _HomeState extends State<Home> {
                      margin: EdgeInsets.all(10.0),
                      padding: EdgeInsets.all(10.0),
                      decoration: new BoxDecoration(
-                       color:Colors.red,
+                       color:Colors.orange,
                        borderRadius: new BorderRadius.all(
                          Radius.circular(90.0)
                        )
@@ -165,7 +165,7 @@ class _HomeState extends State<Home> {
                      margin: EdgeInsets.all(10.0),
                      padding: EdgeInsets.all(10.0),
                      decoration: new BoxDecoration(
-                         color:Colors.red,
+                         color:Colors.green,
                          borderRadius: new BorderRadius.all(
                              Radius.circular(90.0)
                          )
@@ -198,7 +198,7 @@ class _HomeState extends State<Home> {
          ),//Container end
          new Container(
            height: 250.0,
-           color: Colors.redAccent,
+
            margin: EdgeInsets.all(6.0),
            
            child: new ListView(
@@ -234,7 +234,7 @@ class _HomeState extends State<Home> {
                  child: new ClipRRect(
                    borderRadius: new BorderRadius.circular(18.0),
                    child: new Image(
-                       image: AssetImage("assets/a.jpg"),
+                       image: AssetImage("assets/b.jpg"),
                      height: 200.0,
                      width: 200.0,
                      fit: BoxFit.cover,
@@ -246,7 +246,7 @@ class _HomeState extends State<Home> {
                  child: new ClipRRect(
                    borderRadius: new BorderRadius.circular(18.0),
                    child: new Image(
-                       image: AssetImage("assets/a.jpg"),
+                       image: AssetImage("assets/c.jpg"),
                      height: 200.0,
                      width: 200.0,
                      fit: BoxFit.cover,
@@ -258,7 +258,7 @@ class _HomeState extends State<Home> {
                  child: new ClipRRect(
                    borderRadius: new BorderRadius.circular(18.0),
                    child: new Image(
-                       image: new AssetImage("assets/a.jpg"),
+                       image: new AssetImage("assets/d.jpg"),
                      height: 200.0,
                      width: 200.0,
                      fit: BoxFit.cover,
